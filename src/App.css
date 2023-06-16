@@ -1,0 +1,95 @@
+ul {
+  list-style-type: none;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bot {
+  width: 95%;
+  border: 4px solid black;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.bot1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-around;
+}
+
+.bs {
+  background-color: white;
+  color: blueviolet;
+  border-color: blueviolet;
+  border-radius: 10px;
+  width: 75px;
+  height: 25px;
+  margin-top: 20px;
+}
+
+.c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: white;
+
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+.in {
+  width: 40%;
+}
+
+.btn {
+  background-color: blue;
+}
+.btn1 {
+  background-color: red;
+}
+
+.h {
+  color: #171f46;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+button {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 10%;
+  border-radius: 5px;
+}
+span {
+  color: grey;
+}
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: palevioletred;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  overflow: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10%;
+
+  width: 80%;
+}

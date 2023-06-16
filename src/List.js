@@ -29,7 +29,7 @@ const List = (props) => {
   return (
     <li>
       <div className="nC">
-        <p>Name:{name}</p>
+        <p>{name}</p>
         {ic()}
       </div>
       <div className="nC">

@@ -33,6 +33,7 @@ const List = (props) => {
         {ic()}
       </div>
       <div className="nC">
+        <h1>ram</h1>
         <p>DATE:{date}</p>
         <AiFillDelete onClick={bu} style={{ marginTop: "20px" }} />
       </div>
